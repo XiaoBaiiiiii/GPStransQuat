@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<package>
+  <name>gps_trans_utm</name>
+  <version>1.0.0</version>
+  <description>gps transform to utm</description>
+
+  <maintainer email="bcg20@mails.tsinghua.edu.cn">Chunge Bai</maintainer>
+
+  <license>TODO</license>
+
+  <author>Chunge Bai</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>roscpp</build_depend>
+  <run_depend>roscpp</run_depend>
+  <build_depend>rospy</build_depend>
+  <run_depend>rospy</run_depend>
+
+  <build_depend>std_msgs</build_depend>
+  <run_depend>std_msgs</run_depend>
+  <build_depend>sensor_msgs</build_depend>
+  <run_depend>sensor_msgs</run_depend>
+
+</package>

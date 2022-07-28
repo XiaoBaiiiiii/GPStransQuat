@@ -1,0 +1,5 @@
+<launch>
+    <arg name="project" default="gps_trans_utm"/>
+    <rosparam file="$(find gps_trans_utm)/params.yaml"/>
+    <node name="gpsTransUtmNode" pkg="$(arg project)" type="gps_trans_utm" output="screen" respawn="true"/>
+</launch>
